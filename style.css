@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5d261e;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color:rgb(235, 235, 235);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+/* Ajuste do logo */
+ul li.logo {
+  float: left;
+}
+
+ul li.logo img {
+  height: 90px;   /* altura da logo */
+  width: auto;    /* mantém a proporção */
+  padding: 5px 10px;
+}
+body{
+  background-image: url('img5.jpg');
+background-size: cover;
+}
+/* Ajuste para os outros links virem depois da logo */
+ul li:not(.logo) {
+  float: left;
+}
+
+
+body{
+  background-color: rgba(11, 57, 134, 0.891);
+}
+body {
+ font-family: "Covered By Your Grace", cursive;
+  color: #e1e2e4; /* cor parecida com a usada no menu */
+}
+
+h1, h2 {
+  font-family: 'Caveat', serif;
+  font-weight: 700;
+  letter-spacing: 10px; 
+  text-transform: uppercase; 
+}
+#cardapio{
+  font-size: 30px;
+  color: rgb(251, 251, 251);
+  text-align: left;
+}
